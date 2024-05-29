@@ -4,7 +4,7 @@
   "description": "A project to setup Jest, Babel, and ESLint",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node"
+    "dev": "babel-node",
     "test": "jest"
   },
   "author": "",
@@ -16,6 +16,6 @@
     "babel-jest": "^27.0.6",
     "eslint": "^7.30.0",
     "eslint-plugin-jest": "^24.3.6",
-    "jest": "^27.0.6"
+    "jest": "^27.5.1"
   }
 }
