@@ -1,0 +1,20 @@
+{
+  "name": "pack-installer",
+  "version": "1.0.0",
+  "description": "A project to setup Jest, Babel, and ESLint",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.30.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.6"
+  }
+}
