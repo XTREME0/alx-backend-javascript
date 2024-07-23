@@ -8,7 +8,7 @@ const countStudents = (path) => {
   const data = fs.readFileSync(path, 'utf8');
   const lines = data.trim().split('\n');
 
-  const count = lines.length - 1;
+  const c = lines.length - 1;
   console.log(`Number of students: ${c}`);
 
   const CS = [];
