@@ -1,6 +1,6 @@
 const http = require('http');
 
-const wapp = http.createServer((req, resp) => {
+const app = http.createServer((req, resp) => {
   resp.writeHead(200, { 'Content-Type': 'text/plain' });
   resp.end('Hello Holberton School!');
 });
@@ -9,4 +9,4 @@ app.listen(1245, () => {
   console.log('Server is running on http://localhost:1245');
 });
 
-module.exports = wapp;
+module.exports = app;
