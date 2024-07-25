@@ -8,7 +8,7 @@ describe('calculateNumber', () => {
     });
 
     it('summing -1.2 and -2.7', () => {
-      expect(calculateNumber('SUM', -1.2, -2.7)).to.equal(-3);
+      expect(calculateNumber('SUM', -1.2, -2.7)).to.equal(-4);
     });
   });
 
@@ -24,7 +24,7 @@ describe('calculateNumber', () => {
 
   describe('type == "DIVIDE"', () => {
     it('dividing 4.5 by 2.0', () => {
-      expect(calculateNumber('DIVIDE', 4.5, 2.0)).to.equal(2);
+      expect(calculateNumber('DIVIDE', 4.3, 2.0)).to.equal(2);
     });
 
     it('dividing -7.2 by 2.0', () => {
