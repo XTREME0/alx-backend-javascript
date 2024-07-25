@@ -7,7 +7,7 @@ describe('calculateNumber', function () {
     });
 
     it('return the difference of numbers rounded off', function () {
-        assert.strictEqual(calculateNumber('SUBTRACT', 2.4, 3.6), -1);
+        assert.strictEqual(calculateNumber('SUBTRACT', 2.4, 3.6), -2);
     });
 
     it('division of numbers rounded off', function () {
